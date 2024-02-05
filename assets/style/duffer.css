@@ -1,0 +1,124 @@
+@font-face{
+    font-family: Beguiat;
+    src: url('assets/fonts/Benguiat Bold.tff');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+/* Início header*/
+header{
+    color: #B41010;
+    font-family: 'Benguiat';
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+header > h1{
+    font-size: 2.2em;
+    width: 40%;
+    padding: 10px 20px 15px 22px;
+}
+
+nav{
+    height: 15px;
+    width: 60%;
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+ul{
+    list-style: none;
+    text-align: right;
+
+}
+
+ul > li{
+    display: inline;
+    
+}
+
+ul > li > a{
+    padding: 2px 10px;
+    border-right: 3px solid #B41010;
+}
+
+a{
+    color: #B41010;
+    font-size:1em ;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #061141;
+   transition-duration: 0.3ms;
+}
+
+/*Fim header*/
+
+/*Início main*/
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 90px;
+    height: 800px;
+
+    
+}
+
+aside{
+    width: 1000px;
+    height: 700px;
+    
+}
+
+aside > h1{
+    color: black;
+    font-size: 1.8em;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    
+}
+
+aside > p{
+    font-size: 1.2em;
+    text-align: justify;
+    text-indent: 18px;
+   
+}
+
+span{
+    color: #061141;
+}
+
+img{
+    height: 800px;
+    
+    
+}
+
+/*Fim main*/
+
+
+footer{
+    color: white;
+    font-size: 0.8em;
+    height: 17px;
+    width: 100%;
+    background-color: #B41010;
+    text-align: center;
+   
+}
